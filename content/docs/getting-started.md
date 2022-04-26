@@ -1,4 +1,4 @@
----
+<!-- ---
 id: getting-started
 title: Bắt Đầu
 permalink: docs/getting-started.md
@@ -16,7 +16,7 @@ redirect_from:
   - "docs/package-management.md"
   - "docs/language-tooling.md"
   - "docs/environments.md"
----
+--- -->
 
 Trang này chứa các thông tin tổng quan về React và các tài liệu liên quan.
 

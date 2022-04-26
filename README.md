@@ -16,7 +16,7 @@
 
 Github : https://github.com/yugiking0/vi.reactjs.duydq
 
-- Xem [Page Redux](https://yugiking0.github.io/Learn-Redux/) : https://yugiking0.github.io/Learn-Redux/
+- Xem [Page Redux](https://yugiking0.github.io/vi.reactjs.duydq/) : https://yugiking0.github.io/vi.reactjs.duydq/
 
 ---
 
