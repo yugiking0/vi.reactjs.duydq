@@ -1,22 +1,3 @@
-<!-- ---
-id: getting-started
-title: Bắt Đầu
-permalink: docs/getting-started.md
-next: add-react-to-a-website.md
-redirect_from:
-  - "docs/"
-  - "docs/index.md"
-  - "docs/getting-started-ko-KR.md"
-  - "docs/getting-started-zh-CN.md"
-  - "docs/installation.md"
-  - "download.md"
-  - "downloads.md"
-  - "docs/try-react.md"
-  - "docs/tooling-integration.md"
-  - "docs/package-management.md"
-  - "docs/language-tooling.md"
-  - "docs/environments.md"
---- -->
 Sai ở đâu?????
 Trang này chứa các thông tin tổng quan về React và các tài liệu liên quan.
 
