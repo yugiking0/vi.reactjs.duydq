@@ -35,7 +35,7 @@ Khi ứng dụng của bạn phát triển, bạn có thể muốn xem xét thi�
 Mỗi người đến với React từ một nền tảng kiến thức khác nhau và với các cách học khác nhau. Cho dù bạn thích cách tiếp cận lý thuyết hay thực hành, chúng tôi hi vọng bạn sẽ thấy phần này hữu ích.
 
 * Nếu bạn thích **học thông qua thực hành**, hãy bắt đầu với [hướng dẫn thực hành](../tutorial/tutorial.md).
-* Nếu bạn thích **học từ lý thuyết cơ bản**, hãy bắt đầu với [hướng dẫn về các khái niệm chính](./in).
+* Nếu bạn thích **học từ lý thuyết cơ bản**, hãy bắt đầu với [hướng dẫn về các khái niệm chính](./index.md).
 
 Giống như bất kỳ công nghệ mới lạ nào, React có một đường cong học tập. Với thực hành và một chút kiên nhẫn, bạn *sẽ* hiểu được nó.
 
