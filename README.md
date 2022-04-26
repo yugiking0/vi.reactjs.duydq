@@ -5,7 +5,7 @@
 `React` là một thư viện JavaScript được dùng để xây dựng giao diện người dùng (UI - User interfaces).
 
 1.  [Thử React](./content/tutorial/tutorial.md)
-1.  [Học React](./content/docs/getting-started.md)
+1.  [Học React](./content/docs/started.md)
 
 <!-- - Xem [Thư viện 30 dòng giống React + Redux](./detail/001-fake-redux/index.md) -->
 
