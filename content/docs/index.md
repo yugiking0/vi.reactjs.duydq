@@ -4,7 +4,8 @@
 - [Phiên bản của tài liệu](#versioned-documentation)
 - [Bổ sung thiếu sót](#something-missing)
 
-
+-----------
+Đây sai à???/
 - title: Cài đặt
   items:
     - id: getting-started
