@@ -1,31 +1,23 @@
-- [Thử React](#try-react)
-- [Học React](#learn-react)
-- [Theo dõi cập nhật mới nhất](#staying-informed)
-- [Phiên bản của tài liệu](#versioned-documentation)
-- [Bổ sung thiếu sót](#something-missing)
+1.  [Thử React](./content/tutorial/tutorial.md)
+1.  [Học React](./content/docs/started.md)
 
+
+
+## Cài đặt
+  - [Bắt Đầu](./getting-started.md)
+  - [Thêm React Vào Một Website](create-a-new-react-app)
+  - [Tạo Một App React Mới](create-a-new-react-app)
+  - [Các Đường Dẫn CDN](cdn-links)
+  - [Các Kênh Phát Hành](release-channels)
+
+## Khái niệm chính
+  - [Hello World](hello-world)
+  - [Giới thiệu JSX](introducing-jsx)
+  - [Rendering Elements](rendering-elements)
+  - [Giới thiệu JSX](introducing-jsx)
+  - [Giới thiệu JSX](introducing-jsx)
 -----------
-Đây sai à???/
-- title: Cài đặt
-  items:
-    - id: getting-started
-      title: Bắt Đầu
-    - id: add-react-to-a-website
-      title: Thêm React Vào Một Website
-    - id: create-a-new-react-app
-      title: Tạo Một App React Mới
-    - id: cdn-links
-      title: Các Đường Dẫn CDN
-    - id: release-channels
-      title: Các Kênh Phát Hành
 
-- title: Khái niệm chính
-  isOrdered: true
-  items:
-    - id: hello-world
-      title: Hello World
-    - id: introducing-jsx
-      title: Giới thiệu JSX
     - id: rendering-elements
       title: Rendering Elements
     - id: components-and-props
