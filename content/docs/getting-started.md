@@ -1,26 +1,26 @@
 ---
 id: getting-started
 title: Bắt Đầu
-permalink: docs/getting-started.html
-next: add-react-to-a-website.html
+permalink: docs/getting-started.md
+next: add-react-to-a-website.md
 redirect_from:
   - "docs/"
-  - "docs/index.html"
-  - "docs/getting-started-ko-KR.html"
-  - "docs/getting-started-zh-CN.html"
-  - "docs/installation.html"
-  - "download.html"
-  - "downloads.html"
-  - "docs/try-react.html"
-  - "docs/tooling-integration.html"
-  - "docs/package-management.html"
-  - "docs/language-tooling.html"
-  - "docs/environments.html"
+  - "docs/index.md"
+  - "docs/getting-started-ko-KR.md"
+  - "docs/getting-started-zh-CN.md"
+  - "docs/installation.md"
+  - "download.md"
+  - "downloads.md"
+  - "docs/try-react.md"
+  - "docs/tooling-integration.md"
+  - "docs/package-management.md"
+  - "docs/language-tooling.md"
+  - "docs/environments.md"
 ---
 
 Trang này chứa các thông tin tổng quan về React và các tài liệu liên quan.
 
-**React** là một thư viện JavaScript được dùng để xây dựng giao diện người dùng (UI - User interfaces). Bạn có thể tìm hiểu tất cả về React trên [trang chủ của chúng tôi](/) hoặc [trong hướng dẫn](/tutorial/tutorial.html).
+**React** là một thư viện JavaScript được dùng để xây dựng giao diện người dùng (UI - User interfaces). Bạn có thể tìm hiểu tất cả về React trên [trang chủ của chúng tôi](/) hoặc [trong hướng dẫn](/tutorial/tutorial.md).
 
 ---
 
@@ -37,24 +37,24 @@ React được thiết kế khởi đầu để phục vụ cho việc thích ng
 
 Nếu bạn có hứng thú trải nghiệm các tính năng của React, bạn có thể sử dụng các nền tảng code online. Hãy thử bản mẫu Hello World trên [CodePen](codepen://hello-world), [CodeSandbox](https://codesandbox.io/s/new), hoặc [Stackblitz](https://stackblitz.com/fork/react).
 
-Nếu bạn thích sử dụng trình soạn thảo code của riêng mình, bạn cũng có thể [tải xuống file HTML này](https://raw.githubusercontent.com/reactjs/reactjs.org/master/static/html/single-file-example.html), sửa và mở file này từ hệ thống tập tin trên trình duyệt của máy bạn. Thời gian dịch mã sẽ khá chậm, vì vậy chúng tôi khuyên bạn chỉ nên sử dụng phương pháp này với các demo đơn giản.
+Nếu bạn thích sử dụng trình soạn thảo code của riêng mình, bạn cũng có thể [tải xuống file HTML này](https://raw.githubusercontent.com/reactjs/reactjs.org/master/static/html/single-file-example.md), sửa và mở file này từ hệ thống tập tin trên trình duyệt của máy bạn. Thời gian dịch mã sẽ khá chậm, vì vậy chúng tôi khuyên bạn chỉ nên sử dụng phương pháp này với các demo đơn giản.
 
 ### Thêm React vào một Website {#add-react-to-a-website}
 
-Bạn có thể [thêm React vào một trang HTML chỉ trong vòng một phút](/docs/add-react-to-a-website.html). Sau đó, bạn có thể dần dần mở rộng sự hiện diện của React hoặc giữ React trong một vài widget động.
+Bạn có thể [thêm React vào một trang HTML chỉ trong vòng một phút](add-react-to-a-website.md). Sau đó, bạn có thể dần dần mở rộng sự hiện diện của React hoặc giữ React trong một vài widget động.
 
 ### Tạo mới một React App {#create-a-new-react-app}
 
-Khi bạn bắt đầu một dự án React, một [trang HTML đơn giản với script tags](/docs/add-react-to-a-website.html) có thể là lựa chọn tốt nhất. Bạn chỉ mất một phút để thiết lập!
+Khi bạn bắt đầu một dự án React, một [trang HTML đơn giản với script tags](add-react-to-a-website.md) có thể là lựa chọn tốt nhất. Bạn chỉ mất một phút để thiết lập!
 
-Khi ứng dụng của bạn phát triển, bạn có thể muốn xem xét thiết lập cài đặt sâu hơn. Có một số công cụ Javascript chúng tôi khuyên bạn nên sử dụng cho các ứng dụng lớn. Mỗi công cụ có thể hoạt động với ít hoặc không cần cấu hình và cho phép bạn tận dụng tối đa sự phong phú của hệ sinh thái React. [Tìm hiểu cách thực hiện tại đây.](/docs/create-a-new-react-app.html)
+Khi ứng dụng của bạn phát triển, bạn có thể muốn xem xét thiết lập cài đặt sâu hơn. Có một số công cụ Javascript chúng tôi khuyên bạn nên sử dụng cho các ứng dụng lớn. Mỗi công cụ có thể hoạt động với ít hoặc không cần cấu hình và cho phép bạn tận dụng tối đa sự phong phú của hệ sinh thái React. [Tìm hiểu cách thực hiện tại đây.](create-a-new-react-app.md)
 
 ## Học React {#learn-react}
 
 Mỗi người đến với React từ một nền tảng kiến thức khác nhau và với các cách học khác nhau. Cho dù bạn thích cách tiếp cận lý thuyết hay thực hành, chúng tôi hi vọng bạn sẽ thấy phần này hữu ích.
 
-* Nếu bạn thích **học thông qua thực hành**, hãy bắt đầu với [hướng dẫn thực hành](/tutorial/tutorial.html).
-* Nếu bạn thích **học từ lý thuyết cơ bản**, hãy bắt đầu với [hướng dẫn về các khái niệm chính](/docs/hello-world.html).
+* Nếu bạn thích **học thông qua thực hành**, hãy bắt đầu với [hướng dẫn thực hành](../tutorial/tutorial.md).
+* Nếu bạn thích **học từ lý thuyết cơ bản**, hãy bắt đầu với [hướng dẫn về các khái niệm chính](./in).
 
 Giống như bất kỳ công nghệ mới lạ nào, React có một đường cong học tập. Với thực hành và một chút kiên nhẫn, bạn *sẽ* hiểu được nó.
 
@@ -74,41 +74,41 @@ Nếu bạn đến với React từ nền tảng một Designer, [nguồn tài l
 
 Tài liệu hướng dẫn React này giả định rằng bạn đã quen thuộc với việc lập trình sử dụng ngôn ngữ Javascript. Bạn không cần thiết phải là một chuyên gia Javascript, nhưng nó sẽ khó hơn cho bạn khi phải học cả React và JavaScript tại cùng một thời điểm.
 
-Chúng tôi khuyến khích bạn nên xem qua [tổng quan về Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript) để kiểm tra trình độ kiến thức hiện tại. Nó sẽ mất khoảng 30 phút đến một giờ để hoàn thành nhưng sau đó bạn sẽ cảm thấy tự tin hơn khi học React.
+Chúng tôi khuyến khích bạn nên xem qua [tổng quan về Javascript](https://developer.mozilla.org/en-USWeb/JavaScript/A_re-introduction_to_JavaScript) để kiểm tra trình độ kiến thức hiện tại. Nó sẽ mất khoảng 30 phút đến một giờ để hoàn thành nhưng sau đó bạn sẽ cảm thấy tự tin hơn khi học React.
 
 >Lời khuyên
 >
->Bất kể khi nào bạn cảm thấy bối rối bởi thứ gì đó trong Javascript, [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript) và [javascript.info](https://javascript.info/) là những trang web tuyệt vời để kiểm tra. Ngoài ra còn có các [diễn đàn hỗ trợ cộng đồng](/community/support.html) nơi bạn có thể yêu cầu sự giúp đỡ.
+>Bất kể khi nào bạn cảm thấy bối rối bởi thứ gì đó trong Javascript, [MDN](https://developer.mozilla.org/en-USWeb/JavaScript) và [javascript.info](https://javascript.info/) là những trang web tuyệt vời để kiểm tra. Ngoài ra còn có các [diễn đàn hỗ trợ cộng đồng](/community/support.md) nơi bạn có thể yêu cầu sự giúp đỡ.
 
 ### Hướng dẫn thực hành {#practical-tutorial}
 
-Nếu bạn thích cách **học thông qua thực hành,** hãy xem qua [hướng dẫn thực hành](/tutorial/tutorial.html). Trong hướng dẫn này, chúng ta sẽ xây dựng game tic-tac-toe bằng React. Bạn có thể không muốn đọc tiếp vì bạn không làm game — Đừng làm vậy nhé! Hãy kiên nhẫn một chút.
+Nếu bạn thích cách **học thông qua thực hành,** hãy xem qua [hướng dẫn thực hành](/tutorial/tutorial.md). Trong hướng dẫn này, chúng ta sẽ xây dựng game tic-tac-toe bằng React. Bạn có thể không muốn đọc tiếp vì bạn không làm game — Đừng làm vậy nhé! Hãy kiên nhẫn một chút.
 Kiến thức trong bài này chính là lý thuyết cơ bản để xây dựng *bất kỳ* ứng dụng React nào, thành thạo nó sẽ giúp bạn hiểu sâu hơn về React.
 
 ### Hướng dẫn Step-by-Step {#step-by-step-guide}
 
-Nếu bạn thích **học từ các lý thuyết cơ bản,** [hướng dẫn về các khái niệm chính](/docs/hello-world.html) là điểm khởi đầu thích hợp dành cho bạn. Mỗi chương tiếp theo đều được xây dựng dựa trên kiến ​​thức đã giới thiệu trong các chương trước, do đó bạn sẽ không bỏ lỡ bất cứ điều gì trong quá trình học.
+Nếu bạn thích **học từ các lý thuyết cơ bản,** [hướng dẫn về các khái niệm chính](hello-world.md) là điểm khởi đầu thích hợp dành cho bạn. Mỗi chương tiếp theo đều được xây dựng dựa trên kiến ​​thức đã giới thiệu trong các chương trước, do đó bạn sẽ không bỏ lỡ bất cứ điều gì trong quá trình học.
 
 ### Tư duy trong React {#thinking-in-react}
 
-Rất nhiều người dùng của React xác nhận việc đọc [Tư duy trong React](/docs/thinking-in-react.html) chính là khoảng khắc mà họ "nghiện" React. Đây có lẽ là hướng dẫn về React lâu đời nhất nhưng nó vẫn phù hợp cho tới ngày nay.
+Rất nhiều người dùng của React xác nhận việc đọc [Tư duy trong React](thinking-in-react.md) chính là khoảng khắc mà họ "nghiện" React. Đây có lẽ là hướng dẫn về React lâu đời nhất nhưng nó vẫn phù hợp cho tới ngày nay.
 
 ### Các khoá học được đề xuất {#recommended-courses}
 
-Đôi khi, mọi người thấy sách và khóa học video của bên thứ ba hữu ích hơn là tài liệu chính thức này. Vì vậy, chúng tôi duy trì [một danh sách các tài liệu thường được đề xuất](/community/courses.html), trong đó có một số là miễn phí.
+Đôi khi, mọi người thấy sách và khóa học video của bên thứ ba hữu ích hơn là tài liệu chính thức này. Vì vậy, chúng tôi duy trì [một danh sách các tài liệu thường được đề xuất](/community/courses.md), trong đó có một số là miễn phí.
 
 ### Các khái niệm nâng cao {#advanced-concepts}
 
-Khi bạn đã hiểu được các [khái niệm chính](/docs/hello-world.html) và đã thực hành với React một chút, có thể bạn sẽ có hứng thú với các khái niệm nâng cao. Phần này sẽ giới thiệu cho bạn các tính năng mạnh mẽ của React nhưng ít được sử dụng hơn như [context](/docs/context.html) và [refs](/docs/refs-and-the-dom.html).
+Khi bạn đã hiểu được các [khái niệm chính](hello-world.md) và đã thực hành với React một chút, có thể bạn sẽ có hứng thú với các khái niệm nâng cao. Phần này sẽ giới thiệu cho bạn các tính năng mạnh mẽ của React nhưng ít được sử dụng hơn như [context](context.md) và [refs](refs-and-the-dom.md).
 
 ### Tài liệu về API {#api-reference}
 
-Phần này sẽ rất hữu ích khi bạn muốn tìm hiểu chi tiết cụ thể về một React API nào đó. Ví dụ, [tài liệu về `React.Component` API](/docs/react-component.html) có thể cung cấp cho bạn thông tin chi tiết cách thức `setState()` hoạt động, và sự khác nhau của từng phương thức trong một lifecycle.
+Phần này sẽ rất hữu ích khi bạn muốn tìm hiểu chi tiết cụ thể về một React API nào đó. Ví dụ, [tài liệu về `React.Component` API](react-component.md) có thể cung cấp cho bạn thông tin chi tiết cách thức `setState()` hoạt động, và sự khác nhau của từng phương thức trong một lifecycle.
 
 
 ### Thuật ngữ và Câu hỏi thường gặp {#glossary-and-faq}
 
-[Trang thuật ngữ](/docs/glossary.html) bao gồm tổng quan về các thuật ngữ phổ biến nhất mà bạn sẽ thấy trong tài liệu React. Ngoài ra còn có phần Câu hỏi thường gặp dành riêng cho các câu hỏi ngắn và câu trả lời về các chủ đề phổ biến, bao gồm [tạo AJAX requests](/docs/faq-ajax.html), [component state](/docs/faq-state.html), and [cấu trúc file](/docs/faq-structure.html).
+[Trang thuật ngữ](glossary.md) bao gồm tổng quan về các thuật ngữ phổ biến nhất mà bạn sẽ thấy trong tài liệu React. Ngoài ra còn có phần Câu hỏi thường gặp dành riêng cho các câu hỏi ngắn và câu trả lời về các chủ đề phổ biến, bao gồm [tạo AJAX requests](faq-ajax.md), [component state](faq-state.md), and [cấu trúc file](faq-structure.md).
 
 ## Theo dõi cập nhật mới nhất {#staying-informed}
 

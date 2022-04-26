@@ -11,8 +11,41 @@ redirect_from:
   - "docs/tutorial-ko-KR.html"
   - "docs/tutorial-zh-CN.html"
 ---
-
 Bài viết này không có bất kỳ giả định gì về kiến thức React hiện tại.
+
+
+- [Trước khi bắt đầu](#before-we-start-the-tutorial)
+  - [Chúng ta sẽ làm gì?](#what-are-we-building)
+  - [Kiến thức cơ bản cần có](#prerequisites)
+- [Cài đặt môi trường](#setup-for-the-tutorial)
+  - [Tuỳ chọn 1: Viết code trên trình duyệt](#setup-option-1-write-code-in-the-browser)
+  - [Tùy chọn 2: Môi trường trên máy cá nhân](#setup-option-2-local-development-environment)
+  - [Cứu, Tôi đang bị kẹt!](#help-im-stuck)
+- [Tổng quan](#overview)
+  - [React là gì?](#what-is-react)
+  - [Xem xét đoạn code khởi đầu](#inspecting-the-starter-code)
+  - [Truyền dữ liệu thông qua Props](#passing-data-through-props)
+  - [Tạo ra một component có thể tương tác được](#making-an-interactive-component)
+  - [Công cụ cho nhà phát triển](#developer-tools)
+- [Hoàn thành trò chơi](#completing-the-game)
+  - [Tách state lên component cha](#lifting-state-up)
+  - [Tại sao tính bất biến là quan trọng](#why-immutability-is-important)
+    - [Sửa đổi dữ liệu trực tiếp](#data-change-with-mutation)
+    - [Sửa đổi dữ liệu gián tiếp](#data-change-without-mutation)
+    - [Đơn giản hóa các tính năng phức tạp](#complex-features-become-simple)
+    - [Phát hiện thay đổi](#detecting-changes)
+    - [Xác định khi nào component render lại trong React](#determining-when-to-re-render-in-react)
+  - [Function Components](#function-components)
+  - [Lượt chơi](#taking-turns)
+  - [Xác định người thắng cuộc](#declaring-a-winner)
+- [Thêm lịch sử bước đi](#adding-time-travel)
+  - [Lưu lại lịch sử các bước đi](#storing-a-history-of-moves)
+  - [Đưa state lên component cha một lần nữa](#lifting-state-up-again)
+  - [Hiển thị lịch sử các bước đi](#showing-the-past-moves)
+  - [Chọn một khóa (key)](#picking-a-key)
+  - [Triển khai tính năng nhảy lùi bước đi](#implementing-time-travel)
+  - [Tổng kết](#wrapping-up)
+
 
 ## Trước khi bắt đầu {#before-we-start-the-tutorial}
 
@@ -41,7 +74,7 @@ Chúng tôi khuyến khích bạn tìm hiểu trò tic-tac-toe trước khi ti�
 
 Nếu bạn đã làm quen với trò chơi tic-tac-toe, chúng ta sẽ bắt đầu với một phiên bản đơn giản của nó trong bài hướng dẫn này. Bước tiếp theo sẽ giúp bạn cài đặt những thứ cần thiết để bạn có thể bắt đầu.
 
-### Kiến thức cơ bản cần có{#prerequisites}
+### Kiến thức cơ bản cần có {#prerequisites}
 
 Chúng tối giả định rằng bạn đã có kiến thức cơ bản về HTML và JavaScript, tuy nhiên, bạn vẫn có thể tiếp tục nếu như bạn đã làm quen với một ngôn ngữ lập trình khác. Chúng tôi cũng giả định rằng bạn đã quen thuộc với những khái niệm hàm (functions), đối tượng (objects), mảng (arrays) và một chút khái niệm về kế thừa (extend) và lớp (classes).
 
