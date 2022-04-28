@@ -1,5 +1,5 @@
 1.  [Thử React](../../content/tutorial/tutorial.md)
-1.  [Học React](#khái-niệm-chính)
+1.  [Học React](./hello-world)
 
 ## 1. Cài đặt
 
