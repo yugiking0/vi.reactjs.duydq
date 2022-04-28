@@ -13,34 +13,22 @@
   - [Giới thiệu JSX](./introducing-jsx)
   - [Rendering Elements](./rendering-elements)
   - [Components Và Props](./components-and-props)
-  - [Giới thiệu JSX](./introducing-jsx)
-  - [Giới thiệu JSX](./introducing-jsx)
-  - [Giới thiệu JSX](./introducing-jsx)
-  - [Giới thiệu JSX](./introducing-jsx)
-  - [Giới thiệu JSX](./introducing-jsx)
-  - [Giới thiệu JSX](./introducing-jsx)
-  - [Giới thiệu JSX](./introducing-jsx)
-  - [Giới thiệu JSX](./introducing-jsx)
+  - [State Và Vòng Đời](./state-and-lifecycle)
+  - [Xử lý Events](./handling-events)
+  - [Rendering có điều kiện](./conditional-rendering)
+  - [Lists Và Keys](./lists-and-keys)
+  - [Forms](./forms)
+  - [Chuyển State Lên](./lifting-state-up)
+  - [Kết Hợp Và Kế Thừa](./composition-vs-inheritance)
+  - [Tư Duy Trong React](./thinking-in-react)
+
+  
   - [Giới thiệu JSX](./introducing-jsx)
   - [Giới thiệu JSX](./introducing-jsx)
 -----------
 
-    - id: components-and-props
-      title: Components Và Props
-    - id: state-and-lifecycle
-      title: State Và Vòng Đời
-    - id: handling-events
-      title: Xử lý Events
-    - id: conditional-rendering
-      title: Rendering có điều kiện
-    - id: lists-and-keys
-      title: Lists Và Keys
-    - id: forms
-      title: Forms
-    - id: lifting-state-up
-      title: Chuyển State Lên
-    - id: composition-vs-inheritance
-      title: Kết Hợp Và Kế Thừa
+
+
     - id: thinking-in-react
       title: Tư Duy Trong React
 - title: Hướng dẫn nâng cao

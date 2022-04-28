@@ -40,3 +40,16 @@ React là một thư viện JavaScript, và vì thế chúng tôi giả định 
 Tiếp tục kéo xuống bên dưới, và bạn sẽ tìm thấy đường dẫn đến [chương kế tiếp của hướng dẫn này](/docs/introducing-jsx.html) ngay mép bên phải trên cái chân của website.
 
 
+## Khái niệm chính
+  - [Hello World](./hello-world)
+  - [Giới thiệu JSX](./introducing-jsx)
+  - [Rendering Elements](./rendering-elements)
+  - [Components Và Props](./components-and-props)
+  - [State Và Vòng Đời](./state-and-lifecycle)
+  - [Xử lý Events](./handling-events)
+  - [Rendering có điều kiện](./conditional-rendering)
+  - [Lists Và Keys](./lists-and-keys)
+  - [Forms](./forms)
+  - [Chuyển State Lên](./lifting-state-up)
+  - [Kết Hợp Và Kế Thừa](./composition-vs-inheritance)
+  - [Tư Duy Trong React](./thinking-in-react)

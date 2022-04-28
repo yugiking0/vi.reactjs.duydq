@@ -174,3 +174,17 @@ Chúng ta sẽ khám phá cách các React Element được render vào DOM th�
 >**Gợi ý:**
 >
 >Chúng tôi khuyến khích sử dụng [Định nghĩa ngôn ngữ "Babel"](https://babeljs.io/docs/en/next/editors) cho trình soạn thảo của bạn như vậy cả mã ES6 và JSX đều có thể được tô sáng rõ ràng.
+
+## Khái niệm chính
+  - [Hello World](./hello-world)
+  - [Giới thiệu JSX](./introducing-jsx)
+  - [Rendering Elements](./rendering-elements)
+  - [Components Và Props](./components-and-props)
+  - [State Và Vòng Đời](./state-and-lifecycle)
+  - [Xử lý Events](./handling-events)
+  - [Rendering có điều kiện](./conditional-rendering)
+  - [Lists Và Keys](./lists-and-keys)
+  - [Forms](./forms)
+  - [Chuyển State Lên](./lifting-state-up)
+  - [Kết Hợp Và Kế Thừa](./composition-vs-inheritance)
+  - [Tư Duy Trong React](./thinking-in-react)

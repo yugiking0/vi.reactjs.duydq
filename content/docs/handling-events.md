@@ -1,12 +1,3 @@
----
-id: handling-events
-title: Việc Bắt các Sự kiện
-permalink: docs/handling-events.html
-prev: state-and-lifecycle.html
-next: conditional-rendering.html
-redirect_from:
-  - "docs/events-ko-KR.html"
----
 
 Việc bắt sự kiện của những element React rất giống với những element DOM. Có một số khác biệt về cú pháp như:
 

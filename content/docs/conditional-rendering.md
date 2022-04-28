@@ -1,13 +1,3 @@
----
-id: conditional-rendering
-title: Render Có Điều Kiện
-permalink: docs/conditional-rendering.html
-prev: handling-events.html
-next: lists-and-keys.html
-redirect_from:
-  - "tips/false-in-jsx.html"
----
-
 Trong React, bạn có thể tạo ra các component riêng biệt chứa đựng hành vi mà bạn cần. Tiếp đến, dựa trên trạng thái (state) hiện tại của ứng dụng (application), bạn sẽ chỉ định việc các component đó có nên xuất hiện hay không.
 
 Render có điều kiện trong React hoạt động tương tự như cách mà chúng ta vẫn thường thấy trong Javascript. Đó là dùng câu lệnh [`if`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else) hay [conditional operator](https://developer.mozilla.org/vi/docs/Web/JavaScript/Reference/Operators/Conditional_Operator) trong Javascript để tạo ra các element ứng với state hiện tại, React sau đó sẽ cập nhật giao diện người dùng (UI) phù hợp với state đó.
