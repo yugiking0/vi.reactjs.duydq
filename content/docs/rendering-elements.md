@@ -1,12 +1,3 @@
----
-id: rendering-elements
-title: Việc render các element
-permalink: docs/rendering-elements.html
-redirect_from:
-  - "docs/displaying-data.html"
-prev: introducing-jsx.html
-next: components-and-props.html
----
 
 Element là những mảnh ghép nhỏ nhất của các ứng dụng React.
 

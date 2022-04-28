@@ -1,13 +1,3 @@
----
-id: release-channels
-title: Release Channels
-permalink: docs/release-channels.html
-layout: docs
-category: installation
-prev: cdn-links.html
-next: hello-world.html
----
-
 React dựa vào cộng đồng mã nguồn mở phát triển mạnh để gửi báo cáo lỗi, tạo pull requests và [submit RFCs](https://github.com/reactjs/rfcs). Để khuyến khích phản hồi, đôi khi chúng tôi chia sẻ các bản dựng đặc biệt của React bao gồm các tính năng chưa được phát hành.
 
 > Tài liệu này sẽ phù hợp nhất với các nhà phát triển làm việc trên framework, thư viện hoặc công cụ dành cho nhà phát triển. Các nhà phát triển sử dụng React chủ yếu để xây dựng các ứng dụng hướng đến người dùng không cần phải lo lắng về các kênh phát hành trước của chúng tôi.

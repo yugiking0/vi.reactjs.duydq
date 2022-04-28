@@ -1,13 +1,3 @@
----
-id: add-react-to-a-website
-title: Thêm React vào một Website
-permalink: docs/add-react-to-a-website.html
-redirect_from:
-  - "docs/add-react-to-an-existing-app.html"
-prev: getting-started.html
-next: create-a-new-react-app.html
----
-
 Sử dụng ít hay nhiều React tuỳ theo nhu cầu của bạn.
 
 React được thiết kế nhằm mục đích thích ứng khả chuyển, và **bạn có thể sử dụng ít hay nhiều React tuỳ theo nhu cầu của bạn**. Có thể bạn chỉ muốn thêm một vài tính năng tương tác vào trong trang hiện có. React components là một cách tuyệt vời để thực hiện điều đó.

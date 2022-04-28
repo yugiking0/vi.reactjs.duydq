@@ -1,11 +1,3 @@
----
-id: hello-world
-title: Hello World
-permalink: docs/hello-world.html
-prev: cdn-links.html
-next: introducing-jsx.html
----
-
 Một ví dụ đơn giản nhất của React trông như thế này:
 
 ```js

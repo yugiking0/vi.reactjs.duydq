@@ -1,11 +1,3 @@
----
-id: introducing-jsx
-title: Giới thiệu JSX
-permalink: docs/introducing-jsx.html
-prev: hello-world.html
-next: rendering-elements.html
----
-
 Xem xét khai báo biến dưới đây:
 
 ```js

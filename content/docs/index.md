@@ -3,7 +3,7 @@
 
 ## Cài đặt
   - [Bắt Đầu](./getting-started.md)
-  - [Thêm React Vào Một Website](./create-a-new-react-app)
+  - [Thêm React Vào Một Website](./add-react-to-a-website)
   - [Tạo Một App React Mới](./create-a-new-react-app)
   - [Các Đường Dẫn CDN](./cdn-links)
   - [Các Kênh Phát Hành](./release-channels)

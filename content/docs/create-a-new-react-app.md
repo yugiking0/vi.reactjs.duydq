@@ -1,13 +1,3 @@
----
-id: create-a-new-react-app
-title: Tạo một App React mới
-permalink: docs/create-a-new-react-app.html
-redirect_from:
-  - "docs/add-react-to-a-new-app.html"
-prev: add-react-to-a-website.html
-next: cdn-links.html
----
-
 Sử dụng chuỗi công cụ tích hợp để có trải nghiệm tốt nhất cho người dùng và nhà phát triển.
 
 Trang này mô tả một số công cụ React phổ biến giúp thực hiện các tác vụ như:

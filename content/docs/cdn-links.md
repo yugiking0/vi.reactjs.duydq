@@ -1,11 +1,3 @@
----
-id: cdn-links
-title: CDN Links
-permalink: docs/cdn-links.html
-prev: create-a-new-react-app.html
-next: release-channels.html
----
-
 Cả React và ReactDOM đều có sẵn thông qua CDN.
 
 ```html
