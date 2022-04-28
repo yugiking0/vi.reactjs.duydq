@@ -1,25 +1,30 @@
 1.  [Thử React](./content/tutorial/tutorial.md)
 1.  [Học React](./content/docs/started.md)
 
-
-
 ## Cài đặt
   - [Bắt Đầu](./getting-started.md)
-  - [Thêm React Vào Một Website](create-a-new-react-app)
-  - [Tạo Một App React Mới](create-a-new-react-app)
-  - [Các Đường Dẫn CDN](cdn-links)
-  - [Các Kênh Phát Hành](release-channels)
+  - [Thêm React Vào Một Website](./create-a-new-react-app)
+  - [Tạo Một App React Mới](./create-a-new-react-app)
+  - [Các Đường Dẫn CDN](./cdn-links)
+  - [Các Kênh Phát Hành](./release-channels)
 
 ## Khái niệm chính
-  - [Hello World](hello-world)
-  - [Giới thiệu JSX](introducing-jsx)
-  - [Rendering Elements](rendering-elements)
-  - [Giới thiệu JSX](introducing-jsx)
-  - [Giới thiệu JSX](introducing-jsx)
+  - [Hello World](./hello-world)
+  - [Giới thiệu JSX](./introducing-jsx)
+  - [Rendering Elements](./rendering-elements)
+  - [Components Và Props](./components-and-props)
+  - [Giới thiệu JSX](./introducing-jsx)
+  - [Giới thiệu JSX](./introducing-jsx)
+  - [Giới thiệu JSX](./introducing-jsx)
+  - [Giới thiệu JSX](./introducing-jsx)
+  - [Giới thiệu JSX](./introducing-jsx)
+  - [Giới thiệu JSX](./introducing-jsx)
+  - [Giới thiệu JSX](./introducing-jsx)
+  - [Giới thiệu JSX](./introducing-jsx)
+  - [Giới thiệu JSX](./introducing-jsx)
+  - [Giới thiệu JSX](./introducing-jsx)
 -----------
 
-    - id: rendering-elements
-      title: Rendering Elements
     - id: components-and-props
       title: Components Và Props
     - id: state-and-lifecycle
