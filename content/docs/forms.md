@@ -1,14 +1,3 @@
----
-id: forms
-title: Forms
-permalink: docs/forms.html
-prev: lists-and-keys.html
-next: lifting-state-up.html
-redirect_from:
-  - "tips/controlled-input-null-value.html"
-  - "docs/forms-zh-CN.html"
----
-
 Trong React, HTML form element sẽ hoạt động hơi khác một chút so với các DOM element còn lại, form element sẽ giữ và tự xử lí một số state nội bộ (internal state) của riêng nó. Ví dụ như form dưới đây trong HTML sẽ nhận vào giá trị của input name.
 
 ```html

@@ -1,14 +1,3 @@
----
-id: lifting-state-up
-title: Chuyển state lên trên
-permalink: docs/lifting-state-up.html
-prev: forms.html
-next: composition-vs-inheritance.html
-redirect_from:
-  - "docs/flux-overview.html"
-  - "docs/flux-todo-list.html"
----
-
 Thông thường, khi một dữ liệu thay đổi nó sẽ ảnh hưởng tới nhiều component cùng lúc. State được khuyến khích chia sẻ ở component cha của chúng. Hãy cùng xem nó được ứng dụng trong thực tế như thế nào.
 
 Chúng ta sẽ xây dựng một ứng dụng tính nhiệt độ. Nó sẽ cho người dùng biết nước có sôi ở nhiệt độ cho trước hay không.
@@ -122,11 +111,11 @@ Chúng ta cũng chưa thể hiển thị `BoilingVerdict` từ `Calculator`. `Ca
 
 ```js
 function toCelsius(fahrenheit) {
-  return (fahrenheit - 32) * 5 / 9;
+  return ((fahrenheit - 32) * 5) / 9;
 }
 
 function toFahrenheit(celsius) {
-  return (celsius * 9 / 5) + 32;
+  return (celsius * 9) / 5 + 32;
 }
 ```
 
@@ -171,7 +160,7 @@ class TemperatureInput extends React.Component {
 
 Tuy nhiên, chúng ta muốn hai input này được đồng bộ hoá. Khi chúng ta cập nhật nhiệt độ cho Celsius input, Fahrenheit input cũng phải được cập nhật nhiệt độ sau khi đã chuyển đổi và ngược lại.
 
-Trong React, chia sẻ state được thực hiện bằng cách chuyển nó lên component cha gần nhất cần state này. Việc này được gọi là "chuyển state lên trên". Chúng ta sẽ xoá state cục bộ từ  `TemperatureInput` và chuyển nó tới `Calculator`.
+Trong React, chia sẻ state được thực hiện bằng cách chuyển nó lên component cha gần nhất cần state này. Việc này được gọi là "chuyển state lên trên". Chúng ta sẽ xoá state cục bộ từ `TemperatureInput` và chuyển nó tới `Calculator`.
 
 Nếu `Calculator` nắm giữ state chia sẻ, nó sẽ trở thành "nguồn dữ liệu tin cậy" về nhiệt độ hiện tại cho cả hai input. Nó có thể cung cấp cho cả hai những giá trị phù hợp cho chúng. Vì các prop của cả hai component `TemperatureInput` đều đến từ cùng một component cha `Calculator`, nên chúng luôn luôn được đồng bộ hoá.
 
@@ -198,9 +187,10 @@ Bây giờ, khi `TemperatureInput` muốn cập nhật nhiệt độ, nó gọi 
     this.props.onTemperatureChange(e.target.value);
     // ...
 ```
->Chú ý:
+
+> Chú ý:
 >
->Tên của `temperature` hoặc `onTemperatureChange` prop không mang một ý nghĩa đặc biệt nào trong những component tuỳ chỉnh này. Chúng ta có thể gọi chúng bằng những cái tên khác, theo một cách phổ biến hơn, như đặt tên chúng là `value` và `onChange`.
+> Tên của `temperature` hoặc `onTemperatureChange` prop không mang một ý nghĩa đặc biệt nào trong những component tuỳ chỉnh này. Chúng ta có thể gọi chúng bằng những cái tên khác, theo một cách phổ biến hơn, như đặt tên chúng là `value` và `onChange`.
 
 Prop `onTemperatureChange` sẽ được truyền vào cùng với prop `temperature` bởi component cha `Calculator`. Khi prop thay đổi, nó sẽ sửa lại chính state cục bộ của nó, vì thế sẽ tạo lại cả hai input với các giá trị mới. Chúng ta sẽ cùng xem component `Calculator` được triển khai lại sau đây.
 
@@ -230,6 +220,7 @@ class TemperatureInput extends React.Component {
   }
 }
 ```
+
 Bây giờ hãy cùng chuyển sang component `Calculator`.
 
 Chúng ta sẽ lưu trữ giá trị hiện thời của `temperature` và `scale` từ input vào trong state cục bộ của nó. Đây là state mà chúng ta muốn chuyển lên từ những input, và nó sẽ được sử dụng như là "nguồn dữ liệu tin cậy" cho cả hai. Nó là đại diện tối thiểu cho tất cả những dữ liệu chúng ta cần biết để tạo ra cả hai input.
@@ -303,14 +294,14 @@ Bây giờ, bạn có thể thay đổi bất kì input nào, thì `this.state.t
 
 Hãy cùng điểm lại điều gì sẽ xảy ra khi bạn thay đổi giá trị của một input:
 
-* React gọi hàm `onChange` trên cây DOM `<input>`. Trong trường hợp này, nó là hàm `handleChange` trong component `TemperatureInput`.
-* Hàm `handleChange` trong component `TemperatureInput` gọi `this.props.onTemperatureChange()` với kết quả mới nhất. Các thuộc tính (props) của nó, bao gồm `onTemperatureChange`, được cung cấp bởi component cha, `Calculator`.
-* Khi ở lần render trước, `Calculator` đã chỉ định rằng hàm `onTemperatureChange` của Celsius `TemperatureInput` là phương thức `handleCelsiusChange` của `Calculator`.Vì thế một trong hay phương thức này của `Calculator` được gọi phụ thuộc vào dữ liệu đầu vào mà chúng ta cung cấp.
-* Bên trong những phương thức này, component `Calculator` sẽ yêu cầu React để render lại (re-render) chính nó bằng cách gọi `this.setState()` với giá trị đầu vào mới và giá trị scale hiện tại mà chúng ta vừa mới thay đổi.
-* React gọi phương thức `render` của component `Calculator` để xem giao diện (UI) sẽ trông như thế nào. Những giá trị đầu vào của cả hai sẽ được tính toán lại dựa trên nhiệt độ hiện tại và tỉ lệ active tương ứng. Việc chuyển đổi nhiệt độ được thực hiện tại đây.
-* React gọi phương thức `render` của các component `TemperatureInput` với những thuộc tính (props) mới của chúng được chỉ định bởi `Calculator`. Nó 'học' (learn) từ giao diện UI.
-* React gọi phương thức `render` của component `BoilingVerdict`, truyền nhiệt độ (temperature) vào Celsius như thuộc tính (props) của nó.
-* React DOM cập nhật DOM với boiling verdict và để khớp với những giá trị đầu vào mong muốn. Giá trị đầu vào chúng ta đã thay đổi nhận giá trị hiện tại của nó, và giá trị đầu vào khác được cập nhật đến nhiệt độ (temperature) sau khi chuyển đổi.
+- React gọi hàm `onChange` trên cây DOM `<input>`. Trong trường hợp này, nó là hàm `handleChange` trong component `TemperatureInput`.
+- Hàm `handleChange` trong component `TemperatureInput` gọi `this.props.onTemperatureChange()` với kết quả mới nhất. Các thuộc tính (props) của nó, bao gồm `onTemperatureChange`, được cung cấp bởi component cha, `Calculator`.
+- Khi ở lần render trước, `Calculator` đã chỉ định rằng hàm `onTemperatureChange` của Celsius `TemperatureInput` là phương thức `handleCelsiusChange` của `Calculator`.Vì thế một trong hay phương thức này của `Calculator` được gọi phụ thuộc vào dữ liệu đầu vào mà chúng ta cung cấp.
+- Bên trong những phương thức này, component `Calculator` sẽ yêu cầu React để render lại (re-render) chính nó bằng cách gọi `this.setState()` với giá trị đầu vào mới và giá trị scale hiện tại mà chúng ta vừa mới thay đổi.
+- React gọi phương thức `render` của component `Calculator` để xem giao diện (UI) sẽ trông như thế nào. Những giá trị đầu vào của cả hai sẽ được tính toán lại dựa trên nhiệt độ hiện tại và tỉ lệ active tương ứng. Việc chuyển đổi nhiệt độ được thực hiện tại đây.
+- React gọi phương thức `render` của các component `TemperatureInput` với những thuộc tính (props) mới của chúng được chỉ định bởi `Calculator`. Nó 'học' (learn) từ giao diện UI.
+- React gọi phương thức `render` của component `BoilingVerdict`, truyền nhiệt độ (temperature) vào Celsius như thuộc tính (props) của nó.
+- React DOM cập nhật DOM với boiling verdict và để khớp với những giá trị đầu vào mong muốn. Giá trị đầu vào chúng ta đã thay đổi nhận giá trị hiện tại của nó, và giá trị đầu vào khác được cập nhật đến nhiệt độ (temperature) sau khi chuyển đổi.
 
 Tất cả những cập nhật đi qua cùng một lộ trình nên các input sẽ luôn được đồng bộ hoá.
 

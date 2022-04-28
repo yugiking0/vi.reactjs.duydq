@@ -1,11 +1,3 @@
----
-id: lists-and-keys
-title: Lists và Keys
-permalink: docs/lists-and-keys.html
-prev: conditional-rendering.html
-next: forms.html
----
-
 Đầu tiên, hãy xem lại cách bạn chuyển đổi "danh sách" (lists) trong Javascript.
 
 Trong đoạn code bên dưới, chúng ta sử dụng hàm [`map()`](https://developer.mozilla.org/vi/docs/Web/JavaScript/Reference/Global_Objects/Array/map) để nhân đôi giá trị của từng phần tử trong mảng `numbers`. Chúng ta gán mảng mới là kết quả trả về từ hàm `map()` vào biến `doubled` và xuất kết quả đó ra:

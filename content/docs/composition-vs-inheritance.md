@@ -1,13 +1,3 @@
----
-id: composition-vs-inheritance
-title: Kết hợp và kế thừa
-permalink: docs/composition-vs-inheritance.html
-redirect_from:
-  - "docs/multiple-components.html"
-prev: lifting-state-up.html
-next: thinking-in-react.html
----
-
 React có một mô hình kết hợp mạnh mẽ, khuyến khích sử dụng tính kết hợp hơn là kế thừa để tái sử dụng code giữa các component.
 
 Trong phần này, chúng ta sẽ xem xét một vài vấn đề với những người mới bắt đầu với React, họ thường sử dụng kế thừa, và đưa ra cách giải quyết vấn đề đó với tính kế thừa.
