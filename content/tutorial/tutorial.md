@@ -1,16 +1,3 @@
----
-id: tutorial
-title: "Hướng dẫn: Giới thiệu về React"
-layout: tutorial
-sectionid: tutorial
-permalink: tutorial/tutorial.html
-redirect_from:
-  - "docs/tutorial.html"
-  - "docs/why-react.html"
-  - "docs/tutorial-ja-JP.html"
-  - "docs/tutorial-ko-KR.html"
-  - "docs/tutorial-zh-CN.html"
----
 Bài viết này không có bất kỳ giả định gì về kiến thức React hiện tại.
 
 

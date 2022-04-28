@@ -1,13 +1,3 @@
----
-id: thinking-in-react
-title: Tư duy trong React
-permalink: docs/thinking-in-react.html
-redirect_from:
-  - 'blog/2013/11/05/thinking-in-react.html'
-  - 'docs/thinking-in-react-zh-CN.html'
-prev: composition-vs-inheritance.html
----
-
 Theo ý kiến cá nhân, React là cách tốt nhất để xây dựng những ứng dụng Web lớn một cách nhanh chóng. Nó được sử dụng rộng rãi cho Facebook và Instagram.
 
 Một trong những điểm tuyệt vời của React là nó giúp bạn phát triển lối tư duy về cách xây dựng các ứng dụng. Trong tài liệu này, chúng tôi sẽ hướng dẫn bạn quy trình xây dựng một bảng dữ liệu tìm kiếm sản phẩm bằng React.

@@ -1,14 +1,14 @@
-1.  [Thử React](./content/tutorial/tutorial.md)
-1.  [Học React](./content/docs/started.md)
+1.  [Thử React](../../content/tutorial/tutorial.md)
+1.  [Học React](#khái-niệm-chính)
 
-## Cài đặt
+## 1. Cài đặt
   - [Bắt Đầu](./getting-started.md)
   - [Thêm React Vào Một Website](./add-react-to-a-website)
   - [Tạo Một App React Mới](./create-a-new-react-app)
   - [Các Đường Dẫn CDN](./cdn-links)
   - [Các Kênh Phát Hành](./release-channels)
 
-## Khái niệm chính
+## 2. Khái niệm chính
   - [Hello World](./hello-world)
   - [Giới thiệu JSX](./introducing-jsx)
   - [Rendering Elements](./rendering-elements)
@@ -22,15 +22,12 @@
   - [Kết Hợp Và Kế Thừa](./composition-vs-inheritance)
   - [Tư Duy Trong React](./thinking-in-react)
 
-  
+## 3. Hướng dẫn nâng cao
+
   - [Giới thiệu JSX](./introducing-jsx)
   - [Giới thiệu JSX](./introducing-jsx)
 -----------
 
-
-
-    - id: thinking-in-react
-      title: Tư Duy Trong React
 - title: Hướng dẫn nâng cao
   items:
     - id: accessibility
